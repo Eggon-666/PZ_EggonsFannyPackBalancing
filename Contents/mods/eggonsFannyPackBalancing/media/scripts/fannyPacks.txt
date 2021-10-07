@@ -1,0 +1,126 @@
+module Base
+{
+item Bag_FannyPackFront
+    {
+        WeightReduction	=	80,
+        ClothingItemExtra = Bag_FannyPackBack,
+        ClothingItemExtraOption = FannyPack_WearBack,
+        clothingExtraSubmenu = FannyPack_WearFront,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	3,
+        DisplayName	=	Fanny Pack (Front),
+        Icon	=	FannyPack,
+        BodyLocation = FannyPackFront,
+        ClothingItem = Bag_FannyPackFront,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.99,
+        AttachmentsProvided = FannyPackAttach,
+    }
+
+    item Bag_FannyPackBack
+    {
+        WeightReduction	=	80,
+        ClothingItemExtra = Bag_FannyPackFront,
+        ClothingItemExtraOption = FannyPack_WearFront,
+        clothingExtraSubmenu = FannyPack_WearBack,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	3,
+        DisplayName	=	Fanny Pack (Back),
+        Icon	=	FannyPack,
+        BodyLocation = FannyPackBack,
+        ClothingItem = Bag_FannyPackBack,
+        CanBeEquipped = FannyPackBack,
+        RunSpeedModifier = 0.99,
+    }
+
+    item SportsFannyPack
+    {
+        WeightReduction	=	90,
+        ClothingItemExtra = SportsFannyPack,
+        ClothingItemExtraOption = FannyPack_WearFront,
+        clothingExtraSubmenu = FannyPack_WearBack,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	2,
+        DisplayName	=	Sports Fanny Pack,
+        Icon	=	SportsFannyPack,
+        BodyLocation = FannyPackFront,
+        ClothingItem = Bag_FannyPackFront,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.99,
+    }
+    item FannyPackXL
+    {
+        WeightReduction	=	70,
+        ClothingItemExtra = FannyPackXL,
+        ClothingItemExtraOption = FannyPack_WearFront,
+        clothingExtraSubmenu = FannyPack_WearBack,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Fanny Pack XL,
+        Icon	=	FannyPackXL,
+        BodyLocation = FannyPackFront,
+        ClothingItem = Bag_FannyPackFront,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+    }
+
+    recipe Refresh Fanny Pack Front
+	{
+		Bag_FannyPackFront,
+
+		Result:Bag_FannyPackFront,
+		Time:10.0,
+		Category:Tailoring
+	}
+
+    recipe Refresh Fanny Pack Back
+	{
+		Bag_FannyPackBack,
+        Result:Bag_FannyPackBack,
+		Time:10.0,
+		Category:Tailoring
+	}
+
+    recipe Craft Fanny Pack
+	{
+		DenimStrips=3,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=3,
+        Belt/Belt2,
+		Result: Bag_FannyPackFront,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=1
+	}
+
+    recipe Craft Fanny Pack XL
+	{
+		LeatherStrips=4,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=4,
+        Belt/Belt2,
+		Result: FannyPackXL,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=2
+	}
+
+    recipe Craft Sports Fanny Pack
+	{
+		DenimStrips=2,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=3,
+        Belt/Belt2,
+		Result: SportsFannyPack,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=2
+	}
+}
