@@ -46,13 +46,13 @@ item Bag_FannyPackFront
     item SportsFannyPack
     {
         WeightReduction	=	90,
-        ClothingItemExtra = SportsFannyPack,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = SportsFannyPackBack,
+        ClothingItemExtraOption = FannyPack_WearBack,
+        clothingExtraSubmenu = FannyPack_WearFront,
         Weight	=	0.1,
         Type	=	Container,
         Capacity	=	2,
-        DisplayName	=	Sports Fanny Pack,
+        DisplayName	=	Sports Fanny Pack (front),
         Icon	=	SportsFannyPack,
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
@@ -63,7 +63,47 @@ item Bag_FannyPackFront
         RunSpeedModifier = 0.99,
         WorldStaticModel = FannyPack_Ground,
     }
+    item SportsFannyPackBack
+    {
+        WeightReduction	=	90,
+        ClothingItemExtra = SportsFannyPack,
+        ClothingItemExtraOption = FannyPack_WearFront,
+        clothingExtraSubmenu = FannyPack_WearBack,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	2,
+        DisplayName	=	Sports Fanny Pack (back),
+        Icon	=	SportsFannyPack,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = FannyPackBack,
+        ClothingItem = Bag_FannyPackBack,
+        CanBeEquipped = FannyPackBack,
+        RunSpeedModifier = 0.99,
+        WorldStaticModel = FannyPack_Ground,
+    }
     item FannyPackXL
+    {
+        WeightReduction	=	70,
+        ClothingItemExtra = FannyPackXLBack,
+        ClothingItemExtraOption = FannyPack_WearBack,
+        clothingExtraSubmenu = FannyPack_WearFront,
+        Weight	=	0.1,
+        Type	=	Container,
+        Capacity	=	4,
+        DisplayName	=	Fanny Pack XL,
+        Icon	=	FannyPackXL,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BodyLocation = FannyPackFront,
+        ClothingItem = Bag_FannyPackFront,
+        CanBeEquipped = FannyPackFront,
+        RunSpeedModifier = 0.94,
+        WorldStaticModel = FannyPack_Ground,
+    }
+    item FannyPackXLBack
     {
         WeightReduction	=	70,
         ClothingItemExtra = FannyPackXL,
@@ -77,9 +117,9 @@ item Bag_FannyPackFront
         OpenSound   =   OpenBag,
         CloseSound   =   CloseBag,
         PutInSound   =   PutItemInBag,
-        BodyLocation = FannyPackFront,
-        ClothingItem = Bag_FannyPackFront,
-        CanBeEquipped = FannyPackFront,
+        BodyLocation = FannyPackBack,
+        ClothingItem = Bag_FannyPackBack,
+        CanBeEquipped = FannyPackBack,
         RunSpeedModifier = 0.94,
         WorldStaticModel = FannyPack_Ground,
     }
