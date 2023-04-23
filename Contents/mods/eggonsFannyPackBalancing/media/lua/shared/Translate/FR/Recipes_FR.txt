@@ -1,0 +1,9 @@
+Recipes_FR = {
+	Recipe_Refresh_Fanny_Pack_Front = "Mettre à jour sac banane (devant)",
+	Recipe_Refresh_Fanny_Pack_Back = "Mettre à jour sac banane (derrière)",
+	Recipe_Refresh_Fanny_Pack_XL_Front = "Mettre à jour sac banane XL (devant)",
+	Recipe_Refresh_Fanny_Pack_XL_Back = "Mettre à jour sac banane XL (derrière)",
+	Recipe_Craft_Fanny_Pack = "Fabriquer Sac banane",
+	Recipe_Craft_Fanny_Pack_XL = "Fabriquer Sac banane XL",
+	Recipe_Craft_Sports_Fanny_Pack = "Fabriquer Sac banane de sport",
+}

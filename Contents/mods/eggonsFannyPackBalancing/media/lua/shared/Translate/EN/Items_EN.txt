@@ -1,0 +1,6 @@
+Items_EN = {
+	DisplayName_Sports_Fanny_Pack_(Front) = "Sports Fanny Pack (Front)",
+	DisplayName_Sports_Fanny_Pack_(Back) = "Sports Fanny Pack (Back)",
+	DisplayName_Fanny_Pack_XL_(Front) = "Fanny Pack XL (Front)",
+	DisplayName_Fanny_Pack_XL_(Back) = "Fanny Pack XL (Back)",
+}

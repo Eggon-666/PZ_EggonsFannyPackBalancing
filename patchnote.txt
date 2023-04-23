@@ -1,0 +1,25 @@
+--- General ---
+
+Now support translation.
+Added a refresh for Fanny Packs XL because some balance was made.
+Refresh crafting category change from Tailoring to General.
+Added compatibility with Better Belts mod, you can now use your upgraded belts to craft fanny packs.
+You can now use holsters to craft fanny packs.
+
+--- Balance changes ---
+
+Classic Fanny Packs :
+Item was a little overpowered.
+    - Tailoring level required to craft : Nerf from 1 to 2
+    - Weight : Nerf from 0.1 to 0.2
+    - Run Speed Modifier = Nerf from 0.99 to 0.97
+
+Sports Fanny Pack :
+Lower capacity, < run speed, > weight reduction.
+    - Tailoring level required to craft : Nerf from 2 to 3
+
+Fanny Pack XL :
+More capacity, > run speed, ~ weight reduction.
+    - Tailoring level required to craft : Nerf from 2 to 3
+    - Weight = Nerf from 0.1 to 0.3
+    - RunSpeedModifier = Reverted from 0.99 to 0.95

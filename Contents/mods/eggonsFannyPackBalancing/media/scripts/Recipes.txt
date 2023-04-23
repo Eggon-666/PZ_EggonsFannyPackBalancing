@@ -1,0 +1,66 @@
+module Base
+{
+    recipe Refresh Fanny Pack Front
+	{
+		Bag_FannyPackFront,
+		Result:Bag_FannyPackFront,
+		Time:10.0
+	}
+    recipe Refresh Fanny Pack Back
+	{
+		Bag_FannyPackBack,
+        Result:Bag_FannyPackBack,
+		Time:10.0
+	}
+	recipe Refresh Fanny Pack XL Front
+	{
+		FannyPackXL,
+		Result:FannyPackXL,
+		Time:10.0
+	}
+    recipe Refresh Fanny Pack XL Back
+	{
+		FannyPackXLBack,
+        Result:FannyPackXLBack,
+		Time:10.0
+	}
+
+    recipe Craft Fanny Pack
+	{
+		DenimStrips=3,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=3,
+        Belt/Belt2/HolsterSimple/HolsterDouble/Belt3/Belt4/HolsterSimpleL,
+		Result: Bag_FannyPackFront,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=2
+	}
+    
+    recipe Craft Fanny Pack XL
+	{
+		LeatherStrips=4,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=4,
+        Belt/Belt2/HolsterSimple/HolsterDouble/Belt3/Belt4/HolsterSimpleL,
+		Result: FannyPackXL,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=3
+	}
+
+    recipe Craft Sports Fanny Pack
+	{
+		DenimStrips=2,
+        keep Scissors,
+        keep Needle/SutureNeedle,
+        Thread=3,
+        Belt/Belt2/HolsterSimple/HolsterDouble/Belt3/Belt4/HolsterSimpleL,
+		Result: SportsFannyPack,
+		Time:10.0,
+		Category:Tailoring,
+        SkillRequired:Tailoring=3
+	}
+}

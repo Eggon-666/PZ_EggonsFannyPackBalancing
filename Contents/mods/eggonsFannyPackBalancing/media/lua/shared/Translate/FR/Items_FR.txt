@@ -1,0 +1,6 @@
+Items_FR = {
+	DisplayName_Sports_Fanny_Pack_(Front) = "Sac banane de sport (devant)",
+	DisplayName_Sports_Fanny_Pack_(Back) = "Sac banane de sport (derrière)",
+	DisplayName_Fanny_Pack_XL_(Front) = "Sac banane XL (devant)",
+	DisplayName_Fanny_Pack_XL_(Back) = "Sac banane XL (derrière)",
+}

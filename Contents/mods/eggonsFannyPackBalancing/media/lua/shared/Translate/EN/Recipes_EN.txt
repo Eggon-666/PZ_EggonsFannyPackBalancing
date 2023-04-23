@@ -1,0 +1,9 @@
+Recipes_EN = {
+	Recipe_Refresh_Fanny_Pack_Front = "Refresh Fanny Pack (Front)",
+	Recipe_Refresh_Fanny_Pack_Back = "Refresh Fanny Pack (Back)",
+	Recipe_Refresh_Fanny_Pack_XL_Front = "Refresh Fanny Pack XL (Front)",
+	Recipe_Refresh_Fanny_Pack_XL_Back = "Refresh Fanny Pack XL (Back)",
+	Recipe_Craft_Fanny_Pack = "Craft Fanny Pack",
+	Recipe_Craft_Fanny_Pack_XL = "Craft Fanny Pack XL",
+	Recipe_Craft_Sports_Fanny_Pack = "Craft Sports Fanny Pack",
+}

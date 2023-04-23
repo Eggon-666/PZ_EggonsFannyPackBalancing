@@ -1,28 +1,55 @@
-version=1
+version=2
 id=2276669022
 title=Eggon's Fanny Pack Balancing
-description=[h2]Features[/h2]
-description=This mod tweaks fanny pack to make it more usable:
-description=1) weight decreased to 0.1 from 1.0,
-description=2) weight reduction increased to 80 from 7,
-description=3) run speed modifier increased to 0.99 from 0.97.
-description=It also adds recipe for fanny pack (requires Tailoring 1) and 2 additional fanny packs (require Tailoring 2):
-description=1) Sports fanny pack - capacity 2, weight reduction 90%
-description=2) Fanny pack XL - capacity 4, weight reduction 70%
-description=[h3]Existing saves[/h3]
-description=Mod will not change already spawned items. In order to update your existing Fanny Pack:
-description=1) Take out any items inside your fanny pack
-description=2) Right click on the fanny pack and click the "Refresh Fanny Pack" option from context menu.
-description=[h3]Compatibility[/h3]
-description=This is a very simple mod affecting just 2 items. I do not expect any compatibility issues. If you find any, please let me know.
-description=[h3]Credits[/h3]
-description=Thanks to [url=https://steamcommunity.com/id/pumasky2]pumasky2[/url] for the help with configuring wear front/back options.
-description=[h3][b]SUPPORT ME[/b][/h3]
-description=If you appreciate my content and want to encourage me to deliver more... consider supporting me on Ko-Fi or Patreon! Also check out [url=https://steamcommunity.com/profiles/76561198093590691/myworkshopfiles/?section=items&appid=108600]my other mods![/url] :)
-description=
-description=[url=https://ko-fi.com/eggon][img]https://i.imgur.com/ULMwSUt.png[/img][/url]
-description=[url=https://www.patreon.com/eggon666][img]https://i.imgur.com/KUfQ5Ma.png[/img][/url]
-description=
-description=[img]https://i.imgur.com/cKVBRWw.gif[/img]
+description=[h2]Features[/h2]
+
+description=This mod tweaks fanny pack to make it more usable:
+
+description=1) Weight decreased to 0.2 from 1.0,
+
+description=2) Weight reduction increased to 80% from 7%.
+
+description=3) Run speed modifier 0.97 > 0.99 for Sports Fanny Pack.
+
+description=It also adds recipe for fanny pack (requires Tailoring 2) and 2 additional fanny packs (require Tailoring 3):
+
+description=1) Sports fanny pack - weight 0.1, capacity 2, weight reduction 90%
+
+description=2) Fanny pack XL - weight 0.3, capacity 4, weight reduction 80%
+
+description=[h3]Existing saves[/h3]
+
+description=Mod will not change already spawned items. In order to update your existing Fanny Pack:
+
+description=1) Take out any items inside your fanny pack
+
+description=2) Right click on the fanny pack and click the "Refresh Fanny Pack" option from context menu.
+
+description=[h3]Compatibility[/h3]
+
+description=This is a very simple mod affecting just 2 items. I do not expect any compatibility issues. If you find any, please let me know.
+
+description=[h3]Credits[/h3]
+
+description=Thanks to [url=https://steamcommunity.com/id/pumasky2]pumasky2[/url] for the help with configuring wear front/back options.
+
+description=[h3]Translations[/h3]
+
+description=French (FR) : KwerTTY
+
+description=[h3][b]SUPPORT ME[/b][/h3]
+
+description=If you appreciate my content and want to encourage me to deliver more... consider supporting me on Ko-Fi or Patreon! Also check out [url=https://steamcommunity.com/profiles/76561198093590691/myworkshopfiles/?section=items&appid=108600]my other mods![/url] :)
+
+description=
+
+description=[url=https://ko-fi.com/eggon][img]https://i.imgur.com/ULMwSUt.png[/img][/url]
+
+description=[url=https://www.patreon.com/eggon666][img]https://i.imgur.com/KUfQ5Ma.png[/img][/url]
+
+description=
+
+description=[img]https://i.imgur.com/cKVBRWw.gif[/img]
+
 tags=Build 41;Balance;Clothing/Armor
 visibility=public
